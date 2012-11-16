@@ -8,37 +8,12 @@ tags: []
 {% include JB/setup %}
 
 
-So, you followed the advice in my [Linode Hosting Review](/linode-vps-hosting-review/) and decided to host your website with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Excellent choice!
-
-But, if you're new to the command line (perhaps you are familiar with CPanel or Plesk?) or you've never setup a server from scratch before, you may be wondering what dark magic vudu is required to get up and running.
-
-Well, you've come to the right place!
 
 
-## The Command Line Is Hard (...at first)
+### Create New VM ###
+"Ubuntu 12.04 LTS MIN" as your OS. 
 
-I've set up at least five new servers with [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767) and each time I complete the ritual, I learn new incantations that make the Linux angels sing. I'm pretty happy with my current recipe.
-
-Setting up a new server can be confusing, so using a tutorial like this one is a good idea the first time you do it.
-
-
-## Tutorial: How To Set Up Your Linode
-
-In this guide, I will demonstrate how to set up a fresh Ubuntu server from scratch, update everything, install essential software, lock down the server to make it more resilient against basic attacks and denial-of-service, improve server stability, setup automatic backups to another server, and finally install common software like Nginx, MySQL, Python, Node, etc.
-
-
-### A Note About This Guide
-
-I originally compiled this guide as a .txt file of notes for myself, but decided to share it in case anyone finds it useful. If you're looking for something straight from the horse's mouth, Linode [offers guides](http://library.linode.com/) that cover how to set up a new server, but some of the info is out of date.
-
-Let's get started!
-
-
-### Provision a New Linode
-
-First, you need to provision a new [Linode](http://www.linode.com/?r=307513b509e8c0d3292536d446f17f0cdca0e767). Using Linode's web UI, it's quite easy. Select your desired Linode size. If you're unsure, choose the smallest size. You can always resize it later. Select "Ubuntu 12.04 LTS" as your OS. You'll be asked to create a password for the `root` user.
-
-After a few minutes, your server will be ready. Now, it's time to connect to it!
+Set hostname and root password.
 
 
 ### Connecting to Your Server
